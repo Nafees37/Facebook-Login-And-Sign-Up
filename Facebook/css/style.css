@@ -1,0 +1,166 @@
+body {
+	margin: 0;
+	font-family: verdana;
+}
+/*============ common=== styeling===start===============*/
+.w-50 {
+	width: 50%;
+	float: left;
+}
+.container {
+	width: 80%;
+	overflow: hidden;
+	margin: auto;
+}
+ .border {
+	 border: 1px solid  #c2c2c2;
+	 margin: 20px 0;
+ }
+/*============ common=== styeling===end===============*/
+
+ /*====================*main-area-start*===============*/
+ .main-area {
+	 background-color:#dfe4ea;
+	 padding: 120px 0 150px 0;
+	
+ }
+ 
+ .main-area .facebook-image img {
+	 width: 310px;
+ } 
+ .main-area .facebook-help {
+	margin-left: 29px;
+ } 
+ .main-area .facebook-help h3 {
+	 font-weight: normal;
+	 font-size: 25px;
+	 color: #343435;
+	margin-top: -20px;
+ } 
+ .main-area .login-form {
+	 background-color: #ffffff;
+	 padding: 15px 20px;
+	 border-radius: 7px;
+	 text-align: center;
+	 width: 80%;
+	 margin: auto,
+ } 
+ .main-area .login-form input {
+	 display: block;
+	 width: 100%;
+	 box-sizing: border-box;
+ } 
+ .main-area .login-form input[type= "text"], 
+ .main-area .login-form input[type= "password"] {	 
+	 padding: 15px;
+	 margin-bottom: 15px;
+	 font-size: 18px;
+	 border-radius: 5px;
+	 border: 1px solid #c4c6d0;
+ } 
+ ::placeholder {
+	 color: #747474;
+ } 
+ .main-area .login-form input[type="submit"] {
+	 background-color: #1877f2;
+	 border: none;
+	 border-radius: 5px;
+	 font-weight: bold;
+	 font-size: 20px;
+	 font-family: arial;
+	 color: #ffffff;
+	 margin-bottom: 15px;
+	 padding: 15px 0;
+ } 
+ .main-area .login-form input[type="text"]:focus; 
+ .main-area .login-form input[type="password"]:focus {
+	 border: 1px solid #70abf7;	 
+ } 
+ .main-area .login-form .forgot-link {
+	 color: #1877f2;
+	 text-decoration: none;
+	 font-size: 14px;	
+ } 
+ .main-area .login-form .forgot-link:hover {
+	 text-decoration: underline;
+ } 
+ .main-area .login-form .new-account-link {
+	 background-color: #42b72a;
+	 display: inline-block;
+	 color: #fff;
+	 padding: 15px 12px;
+	 border-radius: 5px;
+	 text-decoration: none;
+	 font-size: 20px;
+	 font-weight: bold;
+	 font-family: arial;
+		width: 70%;
+	 box-sizing: border-box;
+	 margin-bottom: 5px;
+ } 
+ .main-area .create-page {
+	 text-align: center;
+ } 
+ .main-area .create-page a {
+	 text-decoration: none;
+	 color: #000000;
+	 font-weight: bold;	 
+ } 
+ .main-area .create-page p {
+	 color: #1c1e69;
+	 font-size: 14px;
+	 margin-top: 30px;
+ }
+ /*====================*main-area-end*===============*/
+  
+/*====================*footer-area-start*===============*/
+.footer-area {
+	padding:30px 0;
+}
+.footer-area .language ul { 
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	color: #737373;
+	overflow: hidden;
+}
+.footer-area .language ul a {
+	text-decoration: none;
+	color: #9f9f9f;
+	font-size: 14px;
+}
+.footer-area .language ul li {
+	float: left;
+	margin-right: 15px;
+}
+#plus {
+	background-color: #f5f6f7;
+	border: 1px solid #ccd0d5;
+	padding: 5px;
+	color: #656c7b;
+	font-size: 18px;
+}
+.footer-area .custom-link ul {
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	color: #9f9f9f;
+	overflow: hidden;
+}
+.footer-area .custom-link ul a {
+	text-decoration: none;
+	color: #8a8d91;
+	font-size: 14px;	
+}
+.footer-area .custom-link ul li {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 5px;	
+}
+.footer-area .copy-right {
+	font-size: 14px;
+	color: #8888bd;
+	margin-top: 45px;
+} 
+/*====================*footer-area-end*===============*/ 
+ 
